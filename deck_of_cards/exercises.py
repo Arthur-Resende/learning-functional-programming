@@ -1,10 +1,9 @@
-# a. Shuffle the deck: Implement a function that shuffles the deck randomly.
-
-import random
 import card
+import action
 
-
-# def shuffle(deck: tuple) -> tuple:
+# a. Shuffle the deck: Implement a function that shuffles the deck randomly.
+shuffled_deck = action.shuffle(deck=card.create_deck())
+print(f"Shuffled deck:\n\n{shuffled_deck}")
 
 # b. Deal cards: Create a function that deals a specified number of cards from the deck.
 # def deal_cards(deck: tuple) -> tuple:
