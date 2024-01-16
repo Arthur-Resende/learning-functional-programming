@@ -44,6 +44,3 @@ def shuffle(deck: tuple) -> tuple:
         tuple: A new tuple representing the shuffled deck.
     """
     return __shuffle_remaining(shuffled=(), remaining=deck)
-
-
-print(shuffle(card.create_deck()))
